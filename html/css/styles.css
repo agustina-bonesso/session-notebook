@@ -1,25 +1,29 @@
+
 aside {
     float: right;
     border: solid .1875rem green;
     margin: .625rem;
     padding: .625rem;
   }
-  
+
   aside > p {
     margin: 0.5rem;
   }
-galley_photo_line{
-    flex-direction:row;
-}
+
 .gallery_photo{
  height: 70%;
  width: 70%;
 }
-.gallery_photo_line{
+.box{
  display: flex;
 }
+.profile{
+    display: flex;
+    flex-direction: column;
+    padding: 3.125rem;
+  }
 .profile_image{
-    border-radius: 50%;
     max-width: 50%;
     align-self: center;
 }
+
